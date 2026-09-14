@@ -1,0 +1,280 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\setlength{\emergencystretch}{3em}
+
+% Compteur automatique des articles
+\newcounter{statutarticle}
+
+% Création automatique d'un article :
+% \statutarticle{TITRE}{label}
+\newcommand{\statutarticle}[2]{%
+    \refstepcounter{statutarticle}%
+    \label{#2}%
+    \vspace{1.2em}%
+    \begin{center}
+        \textbf{%
+            \ifnum\value{statutarticle}=1
+                ARTICLE PREMIER%
+            \else
+                ARTICLE \arabic{statutarticle}%
+            \fi
+        }\\[0.3em]
+        \textbf{#1}
+    \end{center}
+    \vspace{0.4em}%
+}
+
+\begin{document}
+
+\statutarticle{NOM}{art:nom}
+
+Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre Association de Tutorat et d'Aide Cahin-Caha, abrégé en ATACC.
+
+\statutarticle{BUT ET OBJET}{art:objet}
+
+Cette association a pour objet d'aider et d'accompagner, selon différents formats, les étudiants, aussi bien dans leur apprentissage des cours que dans la production de leurs applications complémentaires, dans la préparation des contrôles continus et des examens, ainsi que dans leur sociabilisation au sein de l'université, notamment par la mise en place d'évènements.
+
+\statutarticle{SIÈGE SOCIAL}{art:siege}
+
+Le siège social est fixé avenue de l'Université, Campus du Techno-Pôle du Madrillet, 76800 Saint-Étienne-du-Rouvray.
+
+\statutarticle{DURÉE}{art:duree}
+
+La durée de l'association est illimitée.
+
+\statutarticle{COMPOSITION}{art:composition}
+
+L'association se compose de membres actifs, de tuteurs et de tutorés.
+
+Les différentes qualités de membre peuvent se cumuler. La qualité de tuteur ou de tutoré n'emporte toutefois pas, à elle seule, la qualité de membre actif.
+\newline
+\statutarticle{ADMISSION}{art:admission}
+
+L'admission d'une personne en qualité de membre actif est décidée par le Bureau de l'association.
+
+Toute personne souhaitant participer activement au développement et à la vie de l'association peut demander à devenir membre actif.
+
+Le Bureau statue sur les demandes d'admission à la majorité de ses membres.
+
+L'admission en qualité de tuteur ou de tutoré est libre, sous réserve du respect des présents statuts et, le cas échéant, du règlement intérieur.
+
+\statutarticle{MEMBRES ET COTISATIONS}{art:membres}
+
+Aucune cotisation n'est exigée de la part des membres de l'association à la date d'adoption des présents statuts.
+
+Sont membres actifs les personnes admises en cette qualité par le Bureau et souhaitant prendre part au développement et à la vie de l'association.
+
+Les membres actifs disposent du droit de vote lors des assemblées générales ordinaires et extraordinaires.
+
+Sont tutorés les étudiants recevant les tutorats.
+
+Sont tuteurs les étudiants et professeurs assurant les tutorats.
+
+
+\statutarticle{RADIATIONS}{art:radiations}
+
+La qualité de membre se perd par :
+
+\begin{enumerate}[label=\alph*)]
+    \item la démission ;
+    \item le décès ;
+    \item la radiation prononcée par le conseil d'administration pour motif grave, l'intéressé ayant été invité à fournir des explications devant le Bureau et/ou par écrit.
+\end{enumerate}
+
+La radiation d'un membre est prononcée par le conseil d'administration lors d'un vote à la majorité absolue.
+
+L'intéressé peut exercer un recours. Celui-ci se déroule de la manière suivante : l'intéressé présente sa défense devant le conseil d'administration, puis un nouveau vote a lieu hors de sa présence.
+
+\statutarticle{AFFILIATION}{art:affiliation}
+
+La présente association n'a pas d'affiliation.
+
+Elle peut toutefois adhérer à d'autres associations, unions ou regroupements par décision unanime du conseil d'administration.
+
+\statutarticle{RESSOURCES}{art:ressources}
+
+Les ressources de l'association comprennent :
+
+\begin{enumerate}[label=\arabic*°]
+    \item Les subventions de l'État, des départements, des communes, des établissements publics et de tout autre organisme habilité à en attribuer ;
+    \item Les dons et libéralités que l'association est légalement autorisée à recevoir ;
+    \item Toutes les autres ressources autorisées par les lois et règlements en vigueur.
+\end{enumerate}
+
+L'association pourra notamment exercer des activités économiques telles que l'offre de produits ou de services à la vente.
+
+\statutarticle{ASSEMBLÉE GÉNÉRALE ORDINAIRE}{art:ago}
+
+L'assemblée générale ordinaire comprend tous les membres actifs de l'association.
+
+Elle se réunit au moins une fois par année scolaire, avant la fin du mois d'octobre.
+
+Quinze jours au moins avant la date fixée, les membres actifs de l'association sont convoqués par les soins du secrétaire (ou du secrétaire adjoint). L'ordre du jour figure sur les convocations.
+
+Le président (ou son vice-président, en cas d'absence), assisté des membres du conseil d'administration, préside l'assemblée et expose la situation morale ainsi que l'activité de l'association.
+
+Le trésorier rend compte de sa gestion et soumet les comptes annuels à l'approbation de l'assemblée.
+
+
+Ne peuvent être abordés que les points inscrits à l'ordre du jour.
+
+Chaque membre actif dispose d'une voix.
+
+Un membre actif empêché d'assister à une assemblée générale peut donner procuration à un autre membre actif afin que celui-ci vote en son nom.
+
+La procuration doit désigner le membre actif représenté, le membre actif bénéficiaire de la procuration ainsi que l'assemblée générale pour laquelle elle est donnée.
+
+La procuration est valable uniquement pour l'assemblée générale désignée et cesse automatiquement de produire effet à l'issue de celle-ci.
+
+Un membre actif ne peut détenir qu'une seule procuration en plus de sa propre voix.
+
+L'assemblée générale ordinaire peut valablement délibérer lorsque au moins un tiers des membres actifs sont présents ou représentés.
+
+Les décisions sont prises à la majorité simple des voix des membres présents ou représentés. En cas d'égalité des voix, la proposition soumise au vote est tranchée par le président (ou son vice-président le cas échéant).
+
+Il est procédé chaque année, au cours de l'assemblée générale ordinaire du mois de septembre, à l'élection du conseil d'administration conformément aux dispositions de l'article~\ref{art:ca}.
+
+Les délibérations sont prises à main levée, excepté l'élection des membres du conseil d'administration, qui se déroule à bulletin secret.
+
+Les décisions des assemblées générales s'imposent à tous les membres, y compris aux membres absents ou représentés.
+
+\statutarticle{ASSEMBLÉE GÉNÉRALE EXTRAORDINAIRE}{art:age}
+
+Si besoin est, ou sur la demande de la moitié plus un des membres actifs, le président convoque une assemblée générale extraordinaire.
+
+Le conseil d'administration peut également décider de la convocation d'une assemblée générale extraordinaire.
+
+Les modalités de convocation sont les mêmes que pour l'assemblée générale ordinaire.
+
+L'assemblée générale extraordinaire est notamment compétente pour :
+
+\begin{enumerate}[label=\alph*)]
+    \item modifier les présents statuts ;
+    \item révoquer partiellement ou totalement le conseil d'administration ;
+    \item statuer sur toute question exceptionnelle engageant de manière importante l'avenir ou le fonctionnement de l'association ;
+    \item prononcer la dissolution de l'association.
+\end{enumerate}
+
+Chaque membre actif dispose d'une voix.
+
+Les règles relatives aux procurations prévues à l'article~\ref{art:ago} sont également applicables aux assemblées générales extraordinaires.
+
+L'assemblée générale extraordinaire peut valablement délibérer lorsque la moitié au moins des membres actifs sont présents ou représentés.
+
+À l'exception de la dissolution, les décisions sont prises à la majorité des deux tiers des voix des membres présents ou représentés.
+
+La dissolution de l'association doit être votée à l'unanimité des voix des membres actifs présents ou représentés.
+
+En cas de révocation totale du conseil d'administration, l'assemblée générale extraordinaire procède à l'élection d'un nouveau conseil d'administration au cours de la même séance.
+
+En cas de révocation partielle, elle procède à l'élection des membres nécessaires au remplacement des membres révoqués.
+
+Le conseil d'administration ainsi constitué exerce ses fonctions jusqu'à l'assemblée générale ordinaire du mois de septembre suivant.
+
+\statutarticle{CONSEIL D'ADMINISTRATION}{art:ca}
+
+L'association est dirigée par un conseil d'administration composé de trois, cinq ou sept membres élus parmi les membres actifs de l'association.
+
+Le nombre de sièges composant le conseil d'administration est fixé avant chaque élection parmi les trois possibilités prévues au présent article.
+
+Les membres du conseil d'administration sont élus par l'assemblée générale ordinaire lors de sa réunion annuelle du mois de septembre.
+
+Le mandat du conseil d'administration correspond à une année scolaire. Il commence à l'issue de l'élection organisée au mois de septembre et prend fin lors de l'élection du conseil d'administration organisée au mois de septembre de l'année suivante.
+
+Le conseil d'administration sortant demeure en fonction jusqu'à la proclamation des résultats de la nouvelle élection afin d'assurer la continuité de l'association.
+
+Les membres sortants du conseil d'administration sont de plein droit candidats à leur propre succession, sauf s'ils font connaître leur volonté de ne pas se représenter.
+
+Les membres du conseil d'administration sont rééligibles sans limitation du nombre de mandats.
+
+Tout membre actif peut également présenter sa candidature au conseil d'administration.
+
+L'élection des membres du conseil d'administration se déroule à bulletin secret. Les candidats ayant obtenu le plus grand nombre de voix sont élus, dans la limite du nombre de sièges à pourvoir.
+
+En cas d'égalité de voix entre plusieurs candidats pour le dernier siège à pourvoir, un nouveau vote est organisé entre les candidats concernés.
+
+En cas de vacance d'un ou plusieurs postes en cours de mandat, le conseil d'administration peut pourvoir provisoirement à leur remplacement parmi les membres actifs de l'association. Ce remplacement demeure provisoire jusqu'à la prochaine assemblée générale.
+
+Le conseil d'administration est chargé de l'administration générale de l'association et veille à l'exécution des décisions prises par les assemblées générales.
+
+Il est chargé de représenter l'association en justice, le cas échéant.
+
+Le conseil d'administration se réunit au moins une fois tous les six mois, sur convocation du président ou à la demande du quart de ses membres. Les réunions du conseil peuvent être plus fréquentes si nécessaire.
+
+Les décisions sont prises à la majorité des voix. En cas de partage des voix, celle du président est prépondérante.
+
+Tout membre du conseil d'administration qui, sans excuse, n'aura pas assisté à trois réunions consécutives sera considéré comme démissionnaire.
+
+Le conseil d'administration peut déléguer certains de ses pouvoirs, pour une durée déterminée, à un ou plusieurs de ses membres, notamment pour la signature d'un bail, de chèques, de conventions ou de tout autre acte nécessaire au fonctionnement de l'association.
+
+Le conseil d'administration peut être révoqué, partiellement ou totalement, par une assemblée générale extraordinaire dans les conditions prévues à l'article~\ref{art:age}.
+
+\statutarticle{BUREAU}{art:bureau}
+
+Le conseil d'administration élit parmi les membres actifs un Bureau composé de :
+
+\begin{enumerate}[label=\arabic*)]
+    \item un(e) président(e) ;
+    \item un(e) ou plusieurs vice-président(e)s ;
+    \item un(e) secrétaire et, s'il y a lieu, un(e) secrétaire adjoint(e) ;
+    \item un(e) trésorier(ère) et, si besoin est, un(e) trésorier(ère) adjoint(e).
+\end{enumerate}
+
+Les fonctions de trésorier et de président ne sont pas cumulables.
+
+À la suite de chaque élection annuelle du conseil d'administration, le nouveau conseil d'administration se réunit afin de se prononcer sur la composition du Bureau.
+
+Il peut décider de maintenir tout ou partie du Bureau précédent, sous réserve que les personnes concernées soient toujours membres du conseil d'administration, ou procéder à l'élection de nouveaux membres du Bureau.
+
+En cas d'élection d'un nouveau conseil d'administration à la suite d'une révocation prononcée par une assemblée générale extraordinaire, celui-ci se prononce de la même manière sur le maintien ou la modification du Bureau.
+
+Le Bureau assure la gestion courante de l'association et met en œuvre les décisions du conseil d'administration.
+
+Le Bureau est également compétent pour statuer sur les demandes d'admission en qualité de membre actif dans les conditions prévues à l'article~\ref{art:admission}.
+
+\statutarticle{INDEMNITÉS}{art:indemnites}
+
+Toutes les fonctions, à l'exception éventuelle des tuteurs, sont gratuites et bénévoles.
+
+Les frais occasionnés par l'accomplissement d'un mandat peuvent être remboursés sur présentation de justificatifs.
+
+Le rapport financier présenté à l'assemblée générale ordinaire présente, par bénéficiaire, les remboursements de frais de mission, de déplacement ou de représentation.
+
+\statutarticle{RÈGLEMENT INTÉRIEUR}{art:reglement}
+
+Un règlement intérieur peut être établi par le conseil d'administration afin de préciser les modalités de fonctionnement de l'association qui ne sont pas prévues par les présents statuts.
+
+Le règlement intérieur et ses éventuelles modifications sont adoptés par le conseil d'administration.
+
+Le règlement intérieur ne peut contenir de dispositions contraires aux présents statuts.
+
+Il s'impose à l'ensemble des membres de l'association dès lors qu'il a été voté.
+
+\statutarticle{DISSOLUTION}{art:dissolution}
+
+En cas de dissolution prononcée selon les modalités prévues à l'article~\ref{art:age}, l'assemblée générale extraordinaire nomme un ou plusieurs liquidateurs chargés des opérations de liquidation.
+
+L'actif net subsistant après apurement du passif ne peut être réparti entre les membres de l'association.
+
+L'assemblée générale extraordinaire détermine la destination de l'actif net conformément aux dispositions légales et réglementaires en vigueur.
+
+\statutarticle{LIBÉRALITÉS}{art:liberalites}
+
+Le rapport et les comptes annuels, tels que définis à l'article~\ref{art:ago}, y compris ceux des éventuels comités locaux, sont adressés chaque année au préfet du département lorsque les dispositions légales ou réglementaires applicables l'exigent.
+
+L'association s'engage à présenter ses registres et pièces de comptabilité sur toute réquisition des autorités administratives compétentes en ce qui concerne l'emploi des libéralités qu'elle serait autorisée à recevoir, à laisser visiter ses établissements par les représentants compétents de ces autorités et à leur rendre compte du fonctionnement desdits établissements.
+
+\vspace{2em}
+
+Fait à Saint-Étienne-du-Rouvray, le 10 septembre 2026.
+
+\end{document}
+
